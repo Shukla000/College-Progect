@@ -29,13 +29,6 @@ window.onload = function(){
 }
 let levels = ["Easy","Medium","Hard","Expert"];
 function startGame() {
-    for(let i = 0; i <4; i++){
-        let diff = document.createElement("div");
-        diff.id = i;
-        diff.innerHTML = levels[i];
-        diff.classList.add("levels");
-        document.getElementById("difficulty").appendChild(diff);
-    }
     for(let i=1; i<=9; i++){
         let number = document.createElement("div");
         number.id = i;

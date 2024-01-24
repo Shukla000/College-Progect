@@ -154,3 +154,42 @@ animation: example6 10s ease-in-out 0.1s infinite alternate;
 .home-page{
   display: block;
 }
+
+.Heading{
+  font-weight:300;
+  font-family: 'Sacramento', cursive;
+  font-size: 45px;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  color: yellow;
+}
+
+.game-container{
+  margin: 60px 60px;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+  column-gap: 60px;
+}
+
+.game-card{
+  font-size: 30px;
+  font-family: 'Indie Flower', cursive;
+  background-color: rgba(240, 248, 255, 0.048);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 300px;
+  border: 1px solid white;
+  flex: 2;
+  border-radius: 40px;
+}
+
+.game-buttons{
+  color: white;
+}
+
