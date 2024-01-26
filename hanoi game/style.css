@@ -64,15 +64,16 @@ body {
     width: 28%;
     margin: 0 10px;
     height: 90%;
-    background-image: linear-gradient(white,blue);
-    opacity: 0.3; 
   }
   .first-panel,
   .second-panel,
   .third-panel {
     padding: 0px 0px 10px 0px;
     border-radius: 10px;
-    /* opacity: 0.2; */
+    background-image: url("image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
   /* .first-panel 
   {
@@ -87,30 +88,31 @@ body {
     border: 5px solid light yellow;
     border-radius: 25px;
     background:#4666ff;
+    cursor: pointer;
   }
   .box-a {
     width: 8%;
-    background:rgb(249, 12, 174);
+    background:rgb(250, 250, 46);
   }
   .box-b {
     width: 18%;
-    background:rgb(135,206,235);
+    background:rgb(207, 210, 12);
   }
   .box-c {
     width: 28%;
-    background:rgb(0,191,255);
+    background:rgb(172, 170, 7);
   }
   .box-d {
     width: 38%;
-    background:rgb(70,130,180);
+    background:rgb(248, 118, 31);
   }
   .box-e {
     width: 48%;
-    background:rgb(0,0,128);
+    background:rgb(152, 76, 5);
   }
   .box-f {
     width: 58%;
-    background:rgb(0,49,83);
+    background:rgb(109, 5, 22);
     display: none;
   }
   .win-screen {
