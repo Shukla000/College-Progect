@@ -2,8 +2,13 @@ body {
     text-align: center;
     font-family: Monaco, Arial, Helvetica, sans-serif;
     margin: 0 auto;
-    background: blue;
-    color: white;
+    /*background-image:url("panel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    /* background: rgb(39, 39, 41); */
+    
+    background-image: linear-gradient(rgb(227, 227, 115),orange,rgb(224, 32, 32));
+     color: white; 
   }
   .container {
     display: flex;
@@ -56,14 +61,23 @@ body {
     width: 28%;
     margin: 0 10px;
     height: 90%;
-    background-image: linear-gradient(white, rgb(135,206,235));
+    background-image: linear-gradient(white,blue);
+    opacity: 0.3; 
   }
   .first-panel,
   .second-panel,
   .third-panel {
     padding: 0px 0px 10px 0px;
     border-radius: 10px;
+    /* opacity: 0.2; */
   }
+  /* .first-panel 
+  {
+    
+    background-image:url("panel.jpg");
+    background-position: center;
+    background-size: cover;
+  }*/
   .box {
     padding: 20px 15px;
     margin: 2px 0;
@@ -73,7 +87,7 @@ body {
   }
   .box-a {
     width: 8%;
-    background:rgb(176,196,222);
+    background:rgb(249, 12, 174);
   }
   .box-b {
     width: 18%;
